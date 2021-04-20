@@ -1,0 +1,35 @@
+<header>
+  <div class="wrapper">
+    <div class="logo">
+      <img src="https://cdn3.iconfinder.com/data/icons/brain-games/1042/Quiz-Games.png" width="200" height="121" alt="">
+  </div>
+<ul class="nav-area">
+<li><a href="#">Home</a></li>
+<li><a routerLink="/about">About</a></li>
+</ul>
+</div>
+<div fxLayoutAlign="center center" fxFlexFill class="main-div">
+  <mat-card fxfield="25">
+    <mat-toolbar color="primary">Registration</mat-toolbar>
+  <form fxLayoutAlign="stretch" fxLayout="column" class="login-form">
+    <mat-form-field  >
+      <input matInput placeholder="First name" >
+    </mat-form-field>
+    <mat-form-field  >
+      <input matInput placeholder="Last name" >
+    </mat-form-field>
+    <mat-form-field  >
+      <input matInput placeholder="Email id" >
+    </mat-form-field>
+  
+    <mat-form-field >
+      <input matInput type="password" placeholder="Password" >
+    </mat-form-field>
+    <mat-form-field >
+      <input matInput type="password" placeholder=" confirm Password" >
+    </mat-form-field>
+  <a routerLink="/quiz"><button mat-raised-button type="submit">register and go to quiz</button></a>
+</form>
+</mat-card>
+</div>
+</header>
